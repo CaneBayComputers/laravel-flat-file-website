@@ -1,0 +1,15 @@
+services:
+  server:
+    image: canebaycomputers/cbc:nginx-php8
+    container_name: laravel-website
+    volumes:
+      - .:/usr/share/nginx/html
+      - /etc/hosts:/etc/hosts:ro
+    networks:
+      default:
+        ipv4_address: 10.197.213.167
+
+networks:
+  default:
+    external: true
+    name: docker-stack_uCBivh9S_vpc
