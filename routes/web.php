@@ -8,7 +8,7 @@ Route::get('/', function () {
 
     if( ! View::exists($view)) abort(404);
 
-    return view('welcome');
+    return view($view);
 });
 
 Route::post('forms/{form}', 'Form@process')->where('form', '^[A-Za-z0-9_\-]+$');
