@@ -1,0 +1,15 @@
+services:
+  server:
+    image: canebaycomputers/cbc:nginx-php7
+    container_name: cbc-laravel-php7
+    entrypoint: [ "bash", "-c", "sleep 5 && nginx && supervisord && php-fpm7.4 -F"]
+    volumes:
+      - .:/usr/share/nginx/html
+    networks:
+      default:
+        ipv4_address: 10.2.0.30
+
+networks:
+  default:
+    external: true
+    name: docker-stack_vpcbr
