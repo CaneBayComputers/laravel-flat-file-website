@@ -18,7 +18,7 @@
         <div class="col-md-4">
             <div class="card mb-4">
                 <div class="card-body text-center">
-                    <img src="https://via.placeholder.com/50" class="rounded-circle float-start me-3" alt="Avatar" style="width: 50px;">
+                    <img src="https://placehold.co/50" class="rounded-circle float-start me-3" alt="Avatar" style="width: 50px;">
                     <h5 class="card-title">John Doe</h5>
                     <p class="text-muted">A month ago</p>
                     <p class="card-text">
@@ -35,7 +35,7 @@
         <div class="col-md-4">
             <div class="card mb-4">
                 <div class="card-body text-center">
-                    <img src="https://via.placeholder.com/50" class="rounded-circle float-start me-3" alt="Avatar" style="width: 50px;">
+                    <img src="https://placehold.co/50" class="rounded-circle float-start me-3" alt="Avatar" style="width: 50px;">
                     <h5 class="card-title">Jane Smith</h5>
                     <p class="text-muted">A month ago</p>
                     <p class="card-text">
@@ -52,7 +52,7 @@
         <div class="col-md-4">
             <div class="card mb-4">
                 <div class="card-body text-center">
-                    <img src="https://via.placeholder.com/50" class="rounded-circle float-start me-3" alt="Avatar" style="width: 50px;">
+                    <img src="https://placehold.co/50" class="rounded-circle float-start me-3" alt="Avatar" style="width: 50px;">
                     <h5 class="card-title">Alex Johnson</h5>
                     <p class="text-muted">A month ago</p>
                     <p class="card-text">

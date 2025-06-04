@@ -6,14 +6,14 @@
 <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="https://via.placeholder.com/1600x600" class="d-block w-100" alt="...">
+            <img src="https://placehold.co/1600x600" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h1>Welcome to Our Website</h1>
                 <p>Explore our amazing products and services.</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="https://via.placeholder.com/1600x600" class="d-block w-100" alt="...">
+            <img src="https://placehold.co/1600x600" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h1>Discover Something New</h1>
                 <p>Join us in our journey of innovation.</p>
@@ -36,7 +36,7 @@
         <!-- Featured Cards -->
         <div class="col-md-4">
             <div class="card">
-                <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="...">
+                <img src="https://placehold.co/400x300" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Featured Product</h5>
                     <p class="card-text">This is a featured product description.</p>
@@ -46,7 +46,7 @@
         </div>
         <div class="col-md-4">
             <div class="card">
-                <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="...">
+                <img src="https://placehold.co/400x300" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Special Offer</h5>
                     <p class="card-text">Check out our limited-time offer!</p>
@@ -56,7 +56,7 @@
         </div>
         <div class="col-md-4">
             <div class="card">
-                <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="...">
+                <img src="https://placehold.co/400x300" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Our Services</h5>
                     <p class="card-text">Explore our range of services.</p>
