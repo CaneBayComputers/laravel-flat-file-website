@@ -1,24 +1,25 @@
 <?php
 
+use App\Http\Controllers\PageController;
+use App\Http\Middleware\VerifyContentAccess;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\View;
 
 Route::get('/', function () {
-    $view = 'content.index';
 
-    if( ! View::exists($view)) abort(404);
+    return view('content.index');
 
-    return view($view);
 });
 
-Route::post('forms/{form}', 'Form@process')->where('form', '^[A-Za-z0-9_\-]+$');
+Route::get('/debug-middleware', function () {
+    return response()->json(app()->router->getMiddleware());
+});
 
-Route::get('{slug}', function ($template) {
-    if($template == '') $template = 'index';
+//Route::post('forms/{form}', 'Form@process');
 
-    $view = 'content.' . str_replace('/', '.', $template);
+// Route::middleware([VerifyContentAccess::class])->group(function () {
 
-    if( ! View::exists($view)) abort(404);
+//     Route::get('/{slug}', [PageController::class, 'show'])->where('slug', '.*');
 
-    return view($view);
-})->where('slug', '^[A-Za-z0-9_\/\-]+$');
+// });
+
+Route::get('/{slug}', [PageController::class, 'show'])->where('slug', '.*');

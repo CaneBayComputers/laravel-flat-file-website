@@ -16,22 +16,19 @@
             <!-- Service 1 -->
             <div class="mb-4">
                 <h3>Service 1</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac dui sed leo sodales volutpat. Ut
-                    auctor quam vel mauris maximus, eget accumsan velit dignissim.</p>
+                <p>Our tailored business solutions are designed to deliver measurable results. From strategic planning to operational optimization, Service 1 ensures your company thrives in a competitive market with innovative and efficient strategies.</p>
             </div>
 
             <!-- Service 2 -->
             <div class="mb-4">
                 <h3>Service 2</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac dui sed leo sodales volutpat. Ut
-                    auctor quam vel mauris maximus, eget accumsan velit dignissim.</p>
+                <p>Experience the next level of support and innovation with Service 2. We provide cutting-edge technology solutions and 24/7 support to ensure your business operations are always running smoothly and effectively.</p>
             </div>
 
             <!-- Service 3 -->
             <div class="mb-4">
                 <h3>Service 3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac dui sed leo sodales volutpat. Ut
-                    auctor quam vel mauris maximus, eget accumsan velit dignissim.</p>
+                <p>Service 3 sets a new standard in the industry by combining rapid response times, advanced customization, and seamless client onboarding. Compare us to the competition and see how we consistently outperform with a client satisfaction rate of 98%.</p>
             </div>
 
             <!-- Frequently Asked Questions (Accordion) -->
@@ -39,13 +36,11 @@
                 <!-- FAQ 1 -->
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="faqHeadingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
                             What payment methods do you accept?
                         </button>
                     </h2>
-                    <div id="faqCollapseOne" class="accordion-collapse collapse show"
-                        aria-labelledby="faqHeadingOne" data-bs-parent="#faqAccordion">
+                    <div id="faqCollapseOne" class="accordion-collapse collapse show" aria-labelledby="faqHeadingOne" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
                             We accept all major credit cards and PayPal for payment.
                         </div>
@@ -55,13 +50,11 @@
                 <!-- FAQ 2 -->
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="faqHeadingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
                             How can I contact customer support?
                         </button>
                     </h2>
-                    <div id="faqCollapseTwo" class="accordion-collapse collapse"
-                        aria-labelledby="faqHeadingTwo" data-bs-parent="#faqAccordion">
+                    <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
                             You can reach our customer support team via email or phone during business hours.
                         </div>
@@ -71,13 +64,11 @@
                 <!-- FAQ 3 -->
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="faqHeadingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
                             Do you offer customized solutions?
                         </button>
                     </h2>
-                    <div id="faqCollapseThree" class="accordion-collapse collapse"
-                        aria-labelledby="faqHeadingThree" data-bs-parent="#faqAccordion">
+                    <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
                             Yes, we provide tailored solutions based on specific client requirements.
                         </div>

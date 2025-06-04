@@ -23,8 +23,16 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/reviews">Reviews</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/services">Services</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                                <li><a class="dropdown-item" href="/services">All Services</a></li>
+                                <li><a class="dropdown-item" href="/services/service-1">Service 1</a></li>
+                                <li><a class="dropdown-item" href="/services/service-2">Service 2</a></li>
+                                <li><a class="dropdown-item" href="/services/service-3">Service 3</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/contact">Contact</a>
@@ -53,6 +61,5 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         @stack('script')
         
-        </body>
-        
+    </body>
 </html>

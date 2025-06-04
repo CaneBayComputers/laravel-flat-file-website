@@ -4,6 +4,7 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Redis;
 
 class UpdateContentList extends Command
 {
@@ -30,11 +31,17 @@ class UpdateContentList extends Command
 
         $files = File::allFiles($content_path);
 
-        foreach ($files as $file) 
+        foreach ($files as &$file) 
         {
-            $relative_path = $file->getRelativePathname();
-          
-            $this->info($relative_path);
+            $file = $file->getRelativePathname();
+
+            $file = preg_replace('/\.blade\.php$/', '', $file);
         }
+
+        $files = json_encode($files);
+
+        Redis::set('content_list', $files);
+
+        $this->info('Content list saved to Redis.');
     }
 }
