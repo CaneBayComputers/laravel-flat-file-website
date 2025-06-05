@@ -20,8 +20,6 @@ class VerifyContentAccess
     {
         $path = trim($request->path(), '/');
 
-        die($path);
-
         // Allow home page to pass through
         if ( $path === '' ) 
         {
