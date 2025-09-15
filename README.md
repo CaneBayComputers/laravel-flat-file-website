@@ -51,7 +51,7 @@ That’s it! The environment setup, Docker services, and Redis configuration are
 * After adding or removing `.blade.php` files in `resources/views/content/`, re-run:
 
   ```bash
-  ./art-docker app:update-content-list
+  php artisan app:update-content-list
   ```
 * Use `art-docker` to run any Laravel Artisan commands inside the Docker container.
 
