@@ -21,7 +21,5 @@
 /vendor
 Homestead.json
 Homestead.yaml
-npm-debug.log
 Thumbs.db
-yarn-error.log
 docker-compose.yaml
